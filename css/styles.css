@@ -63,11 +63,11 @@ hr {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.content {
-  margin: 100px 50px;
+.introSection {
+  margin: 100px 30px;
   font-size: 1.25rem;
   border: 2px solid #169462;
-  padding: 80px;
+  padding: 25px;
 }
 
 .intro::first-letter {
@@ -82,3 +82,24 @@ hr {
 }
 
 
+/*  layout */
+
+/*   mobile is the default layout*/
+
+/* tablet layout >=48rem (768px) */
+
+@media screen and (min-width: 46rem) {
+  
+  .introSection {
+    margin: 100px 50px;
+    font-size: 1.25rem;
+    border: 2px solid #169462;
+    padding: 80px;
+  }
+
+}
+
+/*wide screen layout >= 90rem (1440px) */
+
+@media screen and (min-width: 90rem) {
+}
