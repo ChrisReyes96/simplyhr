@@ -78,7 +78,13 @@
     <section id="aboutUs" class="aboutUs">
         <h2>ABOUT US</h2>
         <div class="content">
-            <p><img class="profile" src="images/profile.jpg" alt="Profile picture">Our company is based on the belief
+            <p><picture>
+                <source media="(min-width: 1960px)" srcset="images/profile-1960w.jpg">
+                <source media="(min-width: 1024px)" srcset="images/profile-1024w.jpg">
+                <source media="(min-width: 640px)" srcset="images/profile-640w.jpg">
+                <img src="images/profile-320w.jpg" alt="This is a
+                        picture of me" class="profile"></picture>
+                        Our company is based on the belief
                 that businesses should not be burdened with Human Resources Operations. At SimplyHR Solutions, we
                 believe HR Operations can be simplified and should be customized to fit your business needs. One size
                 does not fit all!</p>
