@@ -63,6 +63,10 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.address {
+  line-height: 0.5;
+}
+
 h1 {
   font-size: 2rem; 
 }
@@ -71,6 +75,10 @@ h3 {
   font-size: 1.5rem;
 }
 
+hr{
+  width: 75%;
+  border: 1px solid #169462;
+}
 .introSection {
   margin: 100px 30px;
   font-size: 1.25rem;
