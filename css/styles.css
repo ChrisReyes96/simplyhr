@@ -67,6 +67,10 @@ body {
   line-height: 0.5;
 }
 
+.contact {
+  background-color: #777777;
+}
+
 h1 {
   font-size: 2rem; 
 }
