@@ -68,7 +68,9 @@ body {
 }
 
 .contact {
-  background-color: #777777;
+  background-color: #d1d1d1;
+  padding: 20px;
+  border: 1px solid black;
 }
 
 h1 {
